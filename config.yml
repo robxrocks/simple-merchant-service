@@ -1,0 +1,15 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 9020
+  adminConnectors:
+    - type: http
+      port: 9021
+
+logging:
+  level: INFO
+  loggers:
+    com.robxrocks: DEBUG
+
+swagger:
+  resourcePackage: com.robxrocks.simple.merchant.service
