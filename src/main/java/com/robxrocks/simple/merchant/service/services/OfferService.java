@@ -9,7 +9,7 @@ import java.util.List;
 public class OfferService {
 
     /**
-     * Converts list of offers to offer resposes
+     * Converts list of offers to offer responses.
      *
      * @param offers list of offers.
      * @return list of offer responses.
